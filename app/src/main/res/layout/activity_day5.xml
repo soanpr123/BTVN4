@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Day5Activity">
+    <Button
+        android:onClick="bai1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bai1"/>
+    <Button
+        android:onClick="bai2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bai2"/>
+    <Button
+        android:onClick="bai3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bai3"/>
+</LinearLayout>

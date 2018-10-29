@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".Day4Bai1.Bai1Activity">
+
+    <TextView
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Ứng Dung máy tính cơ bản "
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:inputType="number"
+        android:id="@+id/edSoa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Số Thứ nhất" />
+
+    <EditText
+        android:inputType="number"
+        android:id="@+id/edSob"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Số Thứ hai" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kết quả = "
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvKetqua"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="horizontal">
+
+        <Button
+            android:onClick="btncong"
+            android:id="@+id/btncong"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Cộng" />
+
+        <Button
+            android:onClick="btntru"
+            android:id="@+id/btntru"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Trừ" />
+
+        <Button
+            android:onClick="btnnhan"
+            android:id="@+id/btnnhan"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Nhân" />
+        <Button
+            android:onClick="btnchia"
+            android:id="@+id/btnchia"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Chia"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

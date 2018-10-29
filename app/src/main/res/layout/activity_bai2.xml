@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="#3C5A9A"
+    tools:context=".Day4bai2.Bai2Activity">
+    <ImageView
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:src="@drawable/facebook"/>
+<EditText
+    android:id="@+id/edemail"
+    android:layout_marginTop="20dp"
+    android:background="#fff"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:layout_marginLeft="30dp"
+    android:layout_marginRight="30dp"
+    android:hint="Email"/>
+    <EditText
+        android:id="@+id/edpass"
+    android:layout_marginTop="20dp"
+    android:background="#fff"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:layout_marginLeft="30dp"
+    android:layout_marginRight="30dp"
+    android:hint="Password"/>
+<Button
+    android:onClick="Login"
+
+    android:background="#203B72"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="30dp"
+    android:layout_marginRight="30dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Login"/>
+    <TextView
+        android:id="@+id/sign"
+        android:onClick="sign"
+        android:layout_marginTop="190dp"
+        android:gravity="center"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Sign"/>
+</LinearLayout>
